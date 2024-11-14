@@ -1,4 +1,4 @@
-Sub Selected_image_w_board()
+Sub image_size_automation()
 With Selection.InlineShapes(1) 
 .LockAspectRatio = False
 .Width = CentimetersToPoints(16.5)
